@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Основные страницы
+Allow: /index.html
+Allow: /EN.html
+Allow: /about.html
+Allow: /about_EN.html
+Allow: /services.html
+Allow: /services_EN.html
+Allow: /portfolio.html
+Allow: /portfolio_EN.html
+Allow: /contact.html
+Allow: /contact_EN.html
+
+# Ресурсы
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /fonts/
+
+# Запретить индексацию служебных папок
+Disallow: /Source/
+Disallow: /sass/
+Disallow: /.git/
+
+# Карта сайта
+Sitemap: https://rocker0996.github.io/vinnilab/sitemap.xml
+
+# Host (основной домен)
+Host: https://rocker0996.github.io/vinnilab/
